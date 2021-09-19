@@ -167,7 +167,7 @@ export default function App() {
         </div>
 
         <div className="bio">
-        You will need <a href="https://metamask.io/" target="_blank">Metamask</a> and some fake ETH from <a href="https://app.mycrypto.com/faucet">Rinkeby</a> testnet to try this out.
+        You will need <a href="https://metamask.io/" target="_blank">Metamask</a> and some fake ETH from <a href="https://app.mycrypto.com/faucet">Rinkeby</a> testnet to try this out. To learn more about the project check out <a href="https://buildspace.so/" target="_blank">Buildspace</a>, you can also take a look at the <a href="https://github.com/sescosa/smart-contract" target="_blank">Smart Contract</a> code and the <a href="https://github.com/sescosa/startup-portal" target="_blank">front end UI</a> 🤓
         </div>
 
       <div style = {{margin: "8px", display: 'flex',justifyContent:'center'}}>

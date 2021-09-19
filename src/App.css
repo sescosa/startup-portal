@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 64px;
+  margin-top: 32px;
   margin-bottom: 20px;
 }
 
@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
+  max-width: 1000px;
 }
 
 .statusDiv{
@@ -19,6 +19,13 @@
   font-weight: bolder;
   animation: blinker 0.8s step-start infinite;
 }
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+  }
+
 
 .header {
   text-align: center;
@@ -30,13 +37,48 @@
   text-align: center;
   color: gray;
   margin-top: 16px;
+  margin: 2rem 2rem;
 }
 
 .waveButton {
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
+  margin: 0.5rem 30%;
   border: 0;
   border-radius: 5px;
   
 }
+
+
+button:hover{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  }
+
+.displayBox{
+  background-color: #fdf5e6 !important;
+  margin-top: 16px !important;
+  margin: 2rem 2rem;
+  padding: 8px;
+}
+
+@media screen and (max-width:600px){
+  .bio{
+    margin:2rem 2rem;
+  }
+  button{
+    margin: 0.5rem 15%;
+  }
+  .display-box{
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .textArea{
+    margin: 0.5rem 15%;
+  }
+  .subContainer{
+    margin: 0.5rem;
+  }
+  }
